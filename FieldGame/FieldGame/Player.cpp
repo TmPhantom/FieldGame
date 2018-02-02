@@ -125,7 +125,7 @@ void Player::attackPCPlayer(PlayingField &pcPlayersField, int &countShips)
 
 	Field::State newState;
 
-	//vorherigen Status überprüfen
+	//vorherigen Status überprüfen  
 	switch (actualState)
 	{
 	case Field::FREE:
